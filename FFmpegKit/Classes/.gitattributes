@@ -1,1 +1,1 @@
-ffmpeg.framework filter=lfs diff=lfs merge=lfs -text
+FFmpeg.framework filter=lfs diff=lfs merge=lfs -text
