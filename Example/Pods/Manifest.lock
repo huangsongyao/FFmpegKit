@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FFmpegKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FFmpegKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FFmpegKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FFmpegKit: ea8767f39ecbee4691a7f4b755429f22297210af
+
+PODFILE CHECKSUM: e0d003b670cfecd50e995680cc129c93467b583e
+
+COCOAPODS: 1.7.5

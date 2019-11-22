@@ -1,0 +1,35 @@
+{
+  "name": "FFmpegKit",
+  "version": "0.1.0",
+  "summary": "A short description of FFmpegKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huangsongyao/FFmpegKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangsongyao": "317398895@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/huangsongyao/FFmpegKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFmpegKit/Classes/FFmpegTools/**/*.{h,m}",
+  "vendored_frameworks": "FFmpegKit/Classes/FFmpeg.framework",
+  "frameworks": [
+    "CoreGraphics",
+    "AudioToolbox",
+    "VideoToolbox",
+    "CoreMedia",
+    "AVFoundation"
+  ],
+  "libraries": [
+    "bz2",
+    "iconv",
+    "z"
+  ]
+}
